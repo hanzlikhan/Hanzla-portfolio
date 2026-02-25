@@ -28,10 +28,10 @@ export function DigitalFTEsCard() {
                         <Sparkles className="w-8 h-8 text-neon-cyan animate-pulse" />
                     </div>
                     <div>
-                        <h3 className="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/70 tracking-tight">
-                            My Journey into <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Digital FTEs</span>
+                        <h3 className="text-3xl md:text-4xl font-extrabold text-foreground tracking-tight drop-shadow-sm">
+                            My Journey into <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-600">Digital FTEs</span>
                         </h3>
-                        <p className="text-neon-cyan/70 font-mono text-sm mt-2 flex items-center gap-2">
+                        <p className="text-muted-foreground font-mono text-sm mt-2 flex items-center gap-2">
                             <TerminalSquare className="w-4 h-4" /> Autonomous AI Workers &middot; 24/7 Scale
                         </p>
                     </div>
@@ -44,27 +44,27 @@ export function DigitalFTEsCard() {
                         whileInView={{ opacity: 1 }}
                         viewport={{ once: true }}
                         transition={{ delay: 0.3, duration: 0.8 }}
-                        className="text-white/80 leading-relaxed font-medium"
+                        className="text-foreground leading-relaxed font-medium"
                     >
-                        I&apos;m currently deep into building <strong className="text-white">Digital Full-Time Equivalents (Digital FTEs)</strong> — autonomous AI agents that work 24/7 like real team members.
+                        I&apos;m currently deep into building <strong>Digital Full-Time Equivalents (Digital FTEs)</strong> — autonomous AI agents that work 24/7 like real team members.
                     </motion.p>
                     <motion.p
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         viewport={{ once: true }}
                         transition={{ delay: 0.5, duration: 0.8 }}
-                        className="text-white/80 leading-relaxed mt-4"
+                        className="text-foreground leading-relaxed mt-4"
                     >
-                        From <span className="text-rose-400 font-semibold border-b border-rose-400/30">CrisisPilot’s</span> multi-agent disaster system to spec-driven agents using <span className="text-neon-cyan">LangGraph</span>, <span className="text-orange-400">Groq</span>, and <span className="text-orange-300">Claude</span>, I’m creating AI workers that can <span className="italic">reason, remember, act, and improve independently</span>.
+                        From <span className="text-rose-500 font-semibold border-b border-rose-500/30">CrisisPilot’s</span> multi-agent disaster system to spec-driven agents using <span className="text-cyan-500 font-medium">LangGraph</span>, <span className="text-orange-500 font-medium">Groq</span>, and <span className="text-orange-400 font-medium">Claude</span>, I’m creating AI workers that can <span className="italic font-semibold text-purple-500">reason, remember, act, and improve independently</span>.
                     </motion.p>
                     <motion.p
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         viewport={{ once: true }}
                         transition={{ delay: 0.7, duration: 0.8 }}
-                        className="text-white/80 leading-relaxed mt-4"
+                        className="text-foreground leading-relaxed mt-4"
                     >
-                        My goal is to replace repetitive human tasks with intelligent digital employees that scale infinitely and cost <span className="text-green-400 font-bold bg-green-400/10 px-2 py-0.5 rounded">50x less</span> — turning ideas into production-ready AI teams.
+                        My goal is to replace repetitive human tasks with intelligent digital employees that scale infinitely and cost <span className="text-green-600 dark:text-green-400 font-bold bg-green-500/10 px-2 py-0.5 rounded">50x less</span> — turning ideas into production-ready AI teams.
                     </motion.p>
                 </div>
 

@@ -3,7 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { SmoothScroller } from "@/components/smooth-scroller";
-import { CustomCursor } from "@/components/ui/custom-cursor";
 import { Preloader } from "@/components/ui/preloader";
 import { GlobalBackground } from "@/components/ui/global-background";
 
@@ -71,7 +70,6 @@ export default function RootLayout({
         >
           <Preloader />
           <GlobalBackground />
-          <CustomCursor />
           <SmoothScroller />
           {children}
         </ThemeProvider>

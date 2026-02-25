@@ -84,14 +84,11 @@ export function LifeStory() {
                                     src={item.image}
                                     alt={item.alt}
                                     fill
-                                    className="object-cover transform group-hover:scale-105 transition-transform duration-700 blur-[2px] opacity-60 group-hover:blur-0 group-hover:opacity-100"
+                                    className="object-cover transform group-hover:scale-105 transition-transform duration-700 opacity-90 group-hover:opacity-100"
                                     unoptimized
                                     sizes="(max-width: 768px) 100vw, 40vw"
                                 />
                                 <div className="absolute inset-0 z-20 flex items-center justify-center pointer-events-none group-hover:opacity-0 transition-opacity duration-500">
-                                    <span className="text-xs text-white/50 border border-white/20 px-3 py-1 rounded-full backdrop-blur-md bg-black/40">
-                                        Image Placeholder
-                                    </span>
                                 </div>
                             </div>
                         </div>

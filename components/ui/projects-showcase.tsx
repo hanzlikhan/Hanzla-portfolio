@@ -88,11 +88,11 @@ export function ProjectsShowcase() {
             }}
             className="group relative flex flex-col glass bg-[#0a0a1a]/80 backdrop-blur-md rounded-3xl border border-white/10 overflow-hidden cursor-pointer transition-all duration-300 hover:border-cyan-400/50 hover:shadow-[0_0_40px_rgba(34,211,238,0.2)]"
             style={{ transformStyle: "preserve-3d" }}
-            onClick={() => openProjectModal(project)}
+            onClick={() => window.open(project.demo, "_blank", "noreferrer")}
         >
             {/* Image Container */}
             <div className={`relative w-full ${isFeatured ? 'h-64 sm:h-72' : 'h-48'} overflow-hidden`}>
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a1a] via-[#0a0a1a]/40 to-transparent z-10" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a1a] via-[#0a0a1a]/10 to-transparent z-10 opacity-70 group-hover:opacity-30 transition-opacity duration-300" />
                 <Image
                     src={project.image}
                     alt={project.title}

@@ -6,12 +6,12 @@ import Lenis from "lenis";
 export function SmoothScroller() {
     useEffect(() => {
         const lenis = new Lenis({
-            duration: 1.2,
-            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+            duration: 1.2, // Snappier duration
+            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // Snappy ease out
             orientation: "vertical",
             gestureOrientation: "vertical",
             smoothWheel: true,
-            wheelMultiplier: 1,
+            wheelMultiplier: 1.2, // Increased for a slightly faster scroll rate
             touchMultiplier: 2,
         });
 
