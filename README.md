@@ -18,7 +18,7 @@
 
 ---
 
-## 🚀 Features
+## 🤖 Features
 
 - **Ultra-Premium Design:** Seamless dark mode, glassmorphism, glowing hover interactions, and beautiful typography.
 - **Agentic AI & Web3 Portfolio:** Detailed displays of complex RAG multi-agent pipelines and real-time LLM web platforms.
